@@ -2,6 +2,14 @@ package Homework1;
 
 import java.util.Scanner;
 
+/**
+ * Java: Знакомство и как пользоваться базовым API (семинары).
+ * Урок 1. Знакомство с языком программирования Java.
+ *
+ * Задание:
+ *
+ * Реализовать простой калькулятор.
+ */
 public class Task3_hw1 {
     static Scanner scanner = new Scanner(System.in);
 
