@@ -1,4 +1,4 @@
-package Lectures.Lecture_02_Teacher;
+package Lectures.Lecture_02;
 
 public class Ex001_stringsDemo {
     public static void main_(String[] args) {

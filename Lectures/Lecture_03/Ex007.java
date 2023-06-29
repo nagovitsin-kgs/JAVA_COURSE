@@ -1,4 +1,4 @@
-package Lesson_03;
+package Lectures.Lecture_03;
 
 import java.util.*;
 
@@ -16,7 +16,7 @@ public class Ex007 {
         while (col.hasNext()) {
             col.remove();
             System.out.println(col.next());
-            //col.next();
+            // col.next();
         }
 
     }

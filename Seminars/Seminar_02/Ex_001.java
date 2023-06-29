@@ -1,8 +1,8 @@
-package Seminars;
+package Seminars.Seminar_02;
 
 import java.io.*;
 
-class Seminar2 {
+class Ex_001 {
     public static void main(String[] args) {
 
         try (FileInputStream fin = new FileInputStream("note.txt");

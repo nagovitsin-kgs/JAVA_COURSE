@@ -1,4 +1,5 @@
-package Lesson_03;
+package Lectures.Lecture_03;
+
 import java.util.Arrays;
 import java.util.List;
 

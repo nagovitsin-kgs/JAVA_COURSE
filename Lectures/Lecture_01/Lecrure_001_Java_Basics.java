@@ -1,3 +1,4 @@
+package Lectures.Lecture_01;
 
 // Знакомство с языком программирования Java:
 /**
@@ -56,7 +57,7 @@ import java.io.IOException;
 import java.io.*;
 // Основы: типы данных:
 
-class Lecture1 {
+class Lecrure_001_Java_Basics {
     public static void main(String[] args) {
         // 1. Основы: типы данных: ////////////////
         short age = 10;
@@ -455,6 +456,11 @@ class Lecture1 {
         if (n == 1)
             return 1;
         return n * factor(n - 1);
+    }
+
+    @Override
+    public String toString() {
+        return "Lecture_001 []";
     }
 
 }

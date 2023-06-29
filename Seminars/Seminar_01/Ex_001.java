@@ -1,8 +1,8 @@
-package Seminars;
+package Seminars.Seminar_01;
 
 import org.json.simple.JSONObject;
 
-public class Seminar1_1 {
+public class Ex_001 {
 
     public static void main(String[] args) {
         JSONObject resultJson = new JSONObject();

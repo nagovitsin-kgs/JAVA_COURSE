@@ -1,4 +1,4 @@
-package Lectures;
+package Lectures.Lecture_02;
 
 import java.io.File;
 import java.io.*;

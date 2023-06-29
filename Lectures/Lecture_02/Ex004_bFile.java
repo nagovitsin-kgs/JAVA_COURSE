@@ -1,4 +1,4 @@
-package Lectures.Lecture_02_Teacher;
+package Lectures.Lecture_02;
 
 import java.io.*;
 import java.nio.ByteBuffer;

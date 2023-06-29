@@ -1,4 +1,4 @@
-package Lectures;
+package Lectures.Lecture_01;
 
 // import java.util.Scanner;
 // import java.io.FileWriter;
@@ -10,7 +10,7 @@ import java.io.*;
 
 // import java.io.*;
 
-public class Lecture1_2 {
+public class LLecture_002_Java_Basics {
 
     public static void main(String[] args) throws Exception { // throws - бросает, Exception - исключение
         // FileReader - читатель файлов
