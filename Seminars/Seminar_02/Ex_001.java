@@ -2,6 +2,17 @@ package Seminars.Seminar_02;
 
 import java.io.*;
 
+/**
+ * Почему вы не можете не использовать API:
+ * Полезные ссылки:
+ *
+ * - JsonFile: http://www.java2s.com/Code/Jar/j/Downloadjsonsimple111jar.htm -
+ * скачать json-simple-1.1.1.jar
+ *
+ * JsonJava:
+ * https://www.youtube.com/watch?v=g6vvEEm2hhs&ab_channel=SWIKbyMirTahaAli -
+ * установка в VS Code
+ */
 class Ex_001 {
     public static void main(String[] args) {
 
