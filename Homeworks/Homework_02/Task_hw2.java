@@ -8,13 +8,12 @@ import java.util.Map;
 
 /**
  * Задание 1: Дана строка sql-запроса "select * from students where ".
- * Сформируйте часть WHERE
- * этого запроса, используя StringBuilder. Данные для фильтрации приведены ниже
- * в виде json-строки.
+ * Сформируйте часть WHERE этого запроса, используя StringBuilder.
+ * Данные для фильтрации приведены ниже в виде json-строки.
  * Если значение null, то параметр не должен попадать в запрос.
  * Параметры для фильтрации: {"name":"Ivanov", "country":"Russia",
  * "city":"Moscow", "age":"null"}
- * -------------------------------------------------------------
+ *
  * Вывод: SELECT * FROM student WHERE name = 'Ivanov' and country = 'Russia' and
  * city = 'Moscow'
  */
@@ -160,7 +159,8 @@ public class Task_hw2 {
      * =============================================================
      */
     public static void processionJson() throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\nagovitsin\\Desktop\\JAVA_COURSE\\json.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\n" + //
+                "agovitsin\\Desktop\\JAVA_COURSE\\Lectures\\files\\json.txt"));
         String st = br.readLine();
         String jsonFile = "";
         while (st != null) {
