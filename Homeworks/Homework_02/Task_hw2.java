@@ -19,11 +19,11 @@ import java.util.Map;
  */
 public class Task_hw2 {
     public static void main(String[] args) throws IOException {
-        getRequest1(); // задание 1 (1-й вариант)
+        // getRequest1(); // задание 1 (1-й вариант)
         getRequest2(); // задание 1 (2-й вариант)
-        processionJson(); // задание 2
-        replacingChar(); // задание 3*
-        getResultSting(); // задание 4*
+        // processionJson(); // задание 2
+        // replacingChar(); // задание 3*
+        // getResultSting(); // задание 4*
     }
 
     public static void getRequest1() {
@@ -62,7 +62,7 @@ public class Task_hw2 {
         String sqlStr = "select * from students where ";
         // создаем и инициализируем карту
         Map<String, String> map = new HashMap<String, String>();
-        // добавляем ключ/ значение
+        // добавляем ключ / значение:
         map.put("name", "Ivanov");
         map.put("country", "Russia");
         map.put("city", "Moscow");
@@ -75,7 +75,10 @@ public class Task_hw2 {
             if (entry.getKey() == null || entry.getValue() == null) {
                 continue;
             }
-            builder.append(entry.getKey()).append(" = '").append(entry.getValue()).append("' and ");
+            builder.append(entry.getKey())
+                    .append(" = '")
+                    .append(entry.getValue())
+                    .append("' and ");
         }
         if (builder.charAt(builder.length() - 1) == ' ')
             ;
@@ -144,7 +147,7 @@ public class Task_hw2 {
         // simbol = 1289
     }
 
-    /*
+    /**
      * Задание 2: Дана json строка (можно сохранить в файл и читать из файла)
      * [{"фамилия":"Иванов","оценка":"5","предмет":"Математика"},
      * {"фамилия":"Петрова","оценка":"4","предмет":"Информатика"},
