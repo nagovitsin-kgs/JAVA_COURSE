@@ -11,16 +11,18 @@ public class Ex002 {
         queue.add(3);
         queue.add(4);
         System.out.println(queue); // [1, 2, 3, 4]
-        int item = queue.remove();
+
+        int item = queue.remove(); // удаляет и возвращает сначала и можно записать в переменную item
         System.out.println(queue); // [2, 3, 4]
         queue.offer(2809);
         item = queue.remove();
         System.out.println(queue); // [3, 4, 2809]
         item = queue.remove();
         System.out.println(queue); // [4, 2809]
-        item = queue.remove();
+        item = queue.remove(); // item = queue.poll(); - тоже самое
         System.out.println(queue); // [2809]
-        System.out.println(queue.peek());
-        
+        // peek() - убирает скобки у последней операции System.out.println(queue);
+        System.out.println(queue.peek()); // 2809
+
     }
 }
