@@ -87,12 +87,14 @@ public class Homework_04 {
     }
 
     // метод, пусть дан LinkedList с несколькими элементами:
+
     static LinkedList<Integer> linkedListWithItemsEx1() {
         LinkedList<Integer> linkedList = new LinkedList<>(Arrays.asList(1, 2, 3, 4, 5));
         return linkedList;
     }
 
     // метод, который вернет “перевернутый” список:
+
     static LinkedList<Integer> reverseEx1(LinkedList<Integer> linkedList) {
         LinkedList<Integer> reverseLinkedList = new LinkedList<>();
         for (int i = linkedList.size() - 1; i >= 0; i--) {
@@ -102,6 +104,7 @@ public class Homework_04 {
     }
 
     // метод, поставить в очередь, помещает элемент в конец очереди:
+
     static LinkedList<Integer> enqueueEx2(LinkedList<Integer> linkedList, int element) {
         LinkedList<Integer> enqueueLinkedList = new LinkedList<>();
         for (int i = 0; i < linkedList.size(); i++) {
@@ -112,6 +115,7 @@ public class Homework_04 {
     }
 
     // метод, исключить из очереди, возвращает первый элемент из очереди не удаляя:
+
     static LinkedList<Integer> dequeueEx2(LinkedList<Integer> linkedList) {
         LinkedList<Integer> dequeueLinkedList = new LinkedList<>();
         for (int i = 0; i < linkedList.size(); i++) {
@@ -127,6 +131,7 @@ public class Homework_04 {
     }
 
     // метод, возвращает первый элемент из очереди, не удаляя его:
+
     static LinkedList<Integer> firstEx2(LinkedList<Integer> linkedList) {
         LinkedList<Integer> firstLinkedList = new LinkedList<>();
         for (int i = 0; i < linkedList.size(); i++) {

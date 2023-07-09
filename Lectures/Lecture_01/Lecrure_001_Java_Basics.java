@@ -321,6 +321,7 @@ class Lecrure_001_Java_Basics {
             default: // default - по умолчанию
                 text = "mistake"; // mistake - Ошибка
                 break;
+
         }
         // Scanner iScanner = new Scanner(System.in);
         System.out.println(text); // Autumn (если int mounth = 2, то mistake)
