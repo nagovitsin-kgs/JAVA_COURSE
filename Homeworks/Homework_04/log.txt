@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-01T15:18:58.444949700Z</date>
+  <millis>1688224738444</millis>
+  <nanos>949700</nanos>
+  <sequence>0</sequence>
+  <logger>Homeworks.Homework_02.Homework_02</logger>
+  <level>INFO</level>
+  <class>Homeworks.Homework_02.Homework_02</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Sort Array</message>
+</record>
+<record>
+  <date>2023-07-01T15:18:58.528947700Z</date>
+  <millis>1688224738528</millis>
+  <nanos>947700</nanos>
+  <sequence>1</sequence>
+  <logger>Homeworks.Homework_02.Homework_02</logger>
+  <level>WARNING</level>
+  <class>Homeworks.Homework_02.Homework_02</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Тестовое логирование</message>
+</record>
+<record>
+  <date>2023-07-01T15:18:58.532947900Z</date>
+  <millis>1688224738532</millis>
+  <nanos>947900</nanos>
+  <sequence>2</sequence>
+  <logger>Homeworks.Homework_02.Homework_02</logger>
+  <level>INFO</level>
+  <class>Homeworks.Homework_02.Homework_02</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Тестовое логирование</message>
+</record>
+</log>
