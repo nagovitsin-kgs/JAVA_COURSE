@@ -1,6 +1,9 @@
-package Homework_04;
+package Homeworks.Homework_04;
 
-
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.security.Timestamp;
 import java.util.*;
 
 
@@ -104,7 +107,7 @@ class Calculator {
     }
 
     public static void logStep(String note) throws IOException {
-        fileWriter.write(new Timestamp(System.currentTimeMillis()) + " " + note + "\n");
-    }
+    fileWriter.write(new Timestamp(System.currentTimeMillis()) + " " + note + "\n");
+   }
 
 }
