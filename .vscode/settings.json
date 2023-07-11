@@ -3,5 +3,9 @@
         "lib/**/*.jar",
         "c:\\Users\\nagovitsin\\Downloads\\json-simple-1.1.1.jar\\json-simple-1.1.1.jar"
     ],
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "editor.cursorBlinking": "blink",
+    "editor.cursorSmoothCaretAnimation": "off",
+    "workbench.editor.enablePreview": true,
+    "editor.multiCursorModifier": "alt"
 }
