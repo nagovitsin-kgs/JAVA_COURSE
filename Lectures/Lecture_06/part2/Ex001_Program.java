@@ -2,34 +2,76 @@ package Lectures.Lecture_06.part2;
 
 import java.util.*;
 
+class Worker {
+
+    private Integer id;
+    private Integer salary;
+    private String firstName;
+    private String lastName;
+
+    public Worker(Integer Id, Integer Salary, String FirstName, String LastName) {
+        id = Id;
+        salary = Salary;
+        firstName = FirstName;
+        lastName = LastName;
+    }
+
+    Integer getId() {
+        return id;
+    }
+
+    Integer getSalary() {
+        return salary;
+    }
+
+    String getFirstName() {
+        return firstName;
+    }
+
+    String getLastName() {
+        return lastName;
+    }
+}
+
 public class Ex001_Program {
 
     public static void main(String[] args) {
         // #region
 
-        Worker w1 = new Worker();
-        w1.firstName = "Имя_1";
-        w1.lastName = "Фамилия_1";
-        w1.salary = 100;
-        w1.id = 1000;
+        HashSet<Worker> w1 = new HashSet<Worker>();
 
-        Worker w4 = new Worker();
-        w4.firstName = "Имя_1";
-        w4.lastName = "Фамилия_1";
-        w4.salary = 100;
-        w4.id = 1000;
+        w1.add(new Worker(1000, 100, "Имя_1", "Фамилия_1"));
 
-        Worker w2 = new Worker();
-        w2.firstName = "Имя_2";
-        w2.lastName = "Фамилия_2";
-        w2.salary = 200;
-        w2.id = 2000;
+        for (Worker worker : w1) {
+            System.out.println(worker.getId());
+            System.out.println(worker.getSalary());
+            System.out.println(worker.getFirstName());
+            System.out.println(worker.getLastName());
 
-        Worker w3 = new Worker();
-        w3.firstName = "Имя_3";
-        w3.lastName = "Фамилия_3";
-        w3.salary = 300;
-        w3.id = 3000;
+        }
+
+        // w1.
+        // w1.getLastName("Фамилия_1");
+        // w1.getSalary(100);
+        // w1.getId(1000);
+
+        // HashSet<Worker> w4 = new HashSet<Worker>();
+        // w4.getFirstName("Имя_1");
+        // w4.getLastName("Фамилия_1");
+        // w4.getSalary(100);
+        // w4.getId(1000);
+
+        // Worker w2 = new Worker();
+        // w2.firstName = "Имя_2";
+        // w2.lastName = "Фамилия_2";
+        // w2.salary = 200;
+        // w2.id = 2000;
+
+        // Worker w3 = new Worker();
+        // w3.firstName = "Имя_3";
+        // w3.lastName = "Фамилия_3";
+        // w3.salary = 300;
+        // w3.id = 3000;
 
         // System.out.println(w1);
         // System.out.println(w2);
